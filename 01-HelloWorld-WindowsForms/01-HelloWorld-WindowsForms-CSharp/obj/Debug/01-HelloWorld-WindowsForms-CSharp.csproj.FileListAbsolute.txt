@@ -1,0 +1,10 @@
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\bin\Debug\01-HelloWorld-WindowsForms-CSharp.exe.config
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\bin\Debug\01-HelloWorld-WindowsForms-CSharp.exe
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\bin\Debug\01-HelloWorld-WindowsForms-CSharp.pdb
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\01-HelloWorld-WindowsForms-CSharp.csprojAssemblyReference.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\_01_HelloWorld_WindowsForms_CSharp.Form1.resources
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\_01_HelloWorld_WindowsForms_CSharp.Properties.Resources.resources
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\01-HelloWorld-WindowsForms-CSharp.csproj.GenerateResource.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\01-HelloWorld-WindowsForms-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\01-HelloWorld-WindowsForms-CSharp.exe
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-CSharp\obj\Debug\01-HelloWorld-WindowsForms-CSharp.pdb

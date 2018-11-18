@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Grid-Validar-Formulario", "07-Grid-Validar-Formulario\07-Grid-Validar-Formulario.csproj", "{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|ARM.Build.0 = Debug|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x64.ActiveCfg = Debug|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x64.Build.0 = Debug|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x64.Deploy.0 = Debug|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x86.ActiveCfg = Debug|x86
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x86.Build.0 = Debug|x86
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Debug|x86.Deploy.0 = Debug|x86
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|ARM.ActiveCfg = Release|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|ARM.Build.0 = Release|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|ARM.Deploy.0 = Release|ARM
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x64.ActiveCfg = Release|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x64.Build.0 = Release|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x64.Deploy.0 = Release|x64
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x86.ActiveCfg = Release|x86
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x86.Build.0 = Release|x86
+		{8193141F-54B0-4995-A7B3-8C16FCC2D2EA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0E0DAA-DA4D-46E5-9E29-AA0892A1CBD9}
+	EndGlobalSection
+EndGlobal

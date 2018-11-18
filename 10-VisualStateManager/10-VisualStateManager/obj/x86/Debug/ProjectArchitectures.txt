@@ -1,0 +1,1 @@
+C:\Users\dasoler\source\repos\DI\10-VisualStateManager\10-VisualStateManager\10-VisualStateManager.csproj;x86

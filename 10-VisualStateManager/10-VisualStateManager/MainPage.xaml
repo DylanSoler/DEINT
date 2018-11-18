@@ -1,0 +1,146 @@
+﻿<Page
+    x:Class="_10_VisualStateManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_10_VisualStateManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Name="Principal"> <!--mejor en un relative como padre-->
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="Wide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="550"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <!--Posición de la barra de AppBarButtons-->
+                        <Setter Target="botones.(Grid.Row)" Value="0"/>
+                        <Setter Target="botones.(Grid.Column)" Value="0"/>
+                        <Setter Target="botones.(Grid.RowSpan)" Value="2"/>
+                        <Setter Target="botones.(StackPanel.Orientation)" Value="Vertical"/>
+                        <!--Posición del grid galería y de cada imagen dentro de él-->
+                        <Setter Target="scrollGaleria.(Grid.Column)" Value="1"/>
+                        <Setter Target="scrollGaleria.(Grid.RowSpan)" Value="2"/>
+                        <Setter Target="img1.(Grid.Row)" Value="0"/>
+                        <Setter Target="img1.(Grid.Column)" Value="0"/>
+                        <Setter Target="img2.(Grid.Row)" Value="0"/>
+                        <Setter Target="img2.(Grid.Column)" Value="1"/>
+                        <Setter Target="img3.(Grid.Row)" Value="0"/>
+                        <Setter Target="img3.(Grid.Column)" Value="2"/>
+                        <Setter Target="img4.(Grid.Row)" Value="1"/>
+                        <Setter Target="img4.(Grid.Column)" Value="0"/>
+                        <Setter Target="img5.(Grid.Row)" Value="1"/>
+                        <Setter Target="img5.(Grid.Column)" Value="1"/>
+                        <Setter Target="img6.(Grid.Row)" Value="1"/>
+                        <Setter Target="img6.(Grid.Column)" Value="2"/>
+                        <Setter Target="img7.(Grid.Row)" Value="2"/>
+                        <Setter Target="img7.(Grid.Column)" Value="0"/>
+                        <Setter Target="img8.(Grid.Row)" Value="2"/>
+                        <Setter Target="img8.(Grid.Column)" Value="1"/>
+                        <Setter Target="img9.(Grid.Row)" Value="2"/>
+                        <Setter Target="img9.(Grid.Column)" Value="2"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Narrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <!--Posición de la barra de AppBarButtons(las attached property van entre ())-->
+                        <Setter Target="botones.(Grid.Row)" Value="0"/>
+                        <Setter Target="botones.(Grid.Column)" Value="0"/>
+                        <Setter Target="botones.(Grid.ColumnSpan)" Value="2"/>
+                        <Setter Target="botones.Orientation" Value="Horizontal"/>
+                        <!--Posición del grid galería y de cada imagen dentro de él-->
+                        <Setter Target="scrollGaleria.(Grid.Row)" Value="1"/>
+                        <Setter Target="scrollGaleria.(Grid.Column)" Value="0"/>
+                        <Setter Target="scrollGaleria.(Grid.ColumnSpan)" Value="2"/>
+                        <Setter Target="img1.(Grid.Row)" Value="0"/>
+                        <Setter Target="img1.(Grid.Column)" Value="0"/>
+                        <Setter Target="img2.(Grid.Row)" Value="1"/>
+                        <Setter Target="img2.(Grid.Column)" Value="0"/>
+                        <Setter Target="img3.(Grid.Row)" Value="2"/>
+                        <Setter Target="img3.(Grid.Column)" Value="0"/>
+                        <Setter Target="img4.(Grid.Row)" Value="3"/>
+                        <Setter Target="img4.(Grid.Column)" Value="0"/>
+                        <Setter Target="img5.(Grid.Row)" Value="4"/>
+                        <Setter Target="img5.(Grid.Column)" Value="0"/>
+                        <Setter Target="img6.(Grid.Row)" Value="5"/>
+                        <Setter Target="img6.(Grid.Column)" Value="0"/>
+                        <Setter Target="img7.(Grid.Row)" Value="6"/>
+                        <Setter Target="img7.(Grid.Column)" Value="0"/>
+                        <Setter Target="img8.(Grid.Row)" Value="7"/>
+                        <Setter Target="img8.(Grid.Column)" Value="0"/>
+                        <Setter Target="img9.(Grid.Row)" Value="8"/>
+                        <Setter Target="img9.(Grid.Column)" Value="0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <!--Definición del grid Principal-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
+        <!--AppBarButtons-->
+        <StackPanel Name="botones" Background="LightBlue">
+            <AppBarButton Icon="Add" Label="Añadir"/>
+            <AppBarButton Icon="Go" Label="Ir"/>
+            <AppBarButton Icon="Target" Label="Objetivo"/>
+            <AppBarButton Icon="AddFriend" Label="Añadir"/>
+        </StackPanel>
+
+
+        <!--Grid con las imágenes-->
+        <ScrollViewer Name="scrollGaleria" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Height="auto">
+        <Grid Name="Galeria">
+
+            <!--Definición del grid Galería-->
+            <Grid.ColumnDefinitions> <!--mejor con asterisco(y column span) para que las imagenes no tener que controlar el tamaño de la imagen-->
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+                
+            <!--Imágenes de la galería-->
+            <Image Name="img1" Source="Assets/cat1.jpg" ></Image>
+            <Image Name="img2" Source="Assets/cat2.jpg" ></Image>
+            <Image Name="img3" Source="Assets/cat3.jpg" ></Image>
+            <Image Name="img4" Source="Assets/cat4.jpg" ></Image>
+            <Image Name="img5" Source="Assets/cat5.jpg" ></Image>
+            <Image Name="img6" Source="Assets/cat6.jpg" ></Image>
+            <Image Name="img7" Source="Assets/cat7.jpg" ></Image>
+            <Image Name="img8" Source="Assets/cat8.jpg" ></Image>
+            <Image Name="img9" Source="Assets/cat9.jpg" ></Image>
+                
+        </Grid>
+        </ScrollViewer>
+
+
+    </Grid>
+        
+        
+</Page>

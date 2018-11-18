@@ -1,0 +1,43 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="_09_EjercicioControles.Pagina2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_09_EjercicioControles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        
+        <!--Definicion de Grid-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <!--Boton Atras-->
+        <Button x:ConnectionId='2' Name="btnAtras" Grid.ColumnSpan="2" Content="Atrás"                       ></Button>
+
+        <!--InkCanvas con InkToolbar-->
+        <Grid  Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="2">
+            <InkCanvas x:ConnectionId='4' x:Name="inkC"/>
+            <InkToolbar x:ConnectionId='5'                                 VerticalAlignment="Top"/>
+        </Grid>
+
+        <!--MapControl (debes declarar el espacio de nombres manualmente en el archivo)-->
+       <Maps:MapControl x:ConnectionId='3' x:Name="MapControl1" Grid.Row="1" Grid.Column="1"
+                        ZoomInteractionMode="GestureAndControl"
+                        ZoomLevel="18" Style="Road"/>
+
+
+
+    </Grid>
+</Page>
+

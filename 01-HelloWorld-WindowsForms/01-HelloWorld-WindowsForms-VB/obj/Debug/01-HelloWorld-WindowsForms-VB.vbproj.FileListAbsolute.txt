@@ -1,0 +1,16 @@
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-VB.exe.config
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-VB.exe
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-VB.pdb
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-VB.xml
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.vbprojAssemblyReference.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\_01_HelloWorld_WindowsForms_VB.Form1.resources
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\_01_HelloWorld_WindowsForms_VB.Resources.resources
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.vbproj.GenerateResource.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.vbproj.CoreCompileInputs.cache
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.exe
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.xml
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.pdb
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-CSharp.exe
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-CSharp.pdb
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\bin\Debug\01-HelloWorld-WindowsForms-CSharp.exe.config
+C:\Users\dasoler\source\repos\01-HelloWorld-WindowsForms\01-HelloWorld-WindowsForms-VB\obj\Debug\01-HelloWorld-WindowsForms-VB.vbproj.CopyComplete

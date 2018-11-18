@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="_13_DataBinding.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_13_DataBinding"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:_13_DataBinding.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <vm:MainPageViewModel></vm:MainPageViewModel>
+    </Page.DataContext>
+
+    <RelativePanel>
+<!--Ponemos TwoWay para que la propiedad del ViewModel personaSeleccionada vaya cambiando-->
+        <ListView Name="lv" ItemsSource="{Binding listadoPersonas}" 
+                  SelectedItem="{Binding personaSeleccionada, Mode=TwoWay}" 
+                  BorderBrush="Black" BorderThickness="2" RelativePanel.AlignBottomWithPanel="True"
+                  RelativePanel.AlignTopWithPanel="True">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=nombre}"></TextBlock>
+                        <TextBlock Text="{Binding Path=apellidos}" Margin="5,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+
+        <Grid Name="grid" RelativePanel.RightOf="lv" Margin="20,20,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Nombre:" Grid.Row="0"></TextBlock>
+            <TextBox Name="txbNombre" Grid.Column="1" Text="{Binding Path=personaSeleccionada.nombre, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            <TextBlock Text="Apellidos:" Grid.Row="1"></TextBlock>
+            <TextBox Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding Path=personaSeleccionada.apellidos, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            <TextBlock Text="Fecha nacimiento: " Grid.Row="2"></TextBlock>
+            <TextBox Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding Path=personaSeleccionada.fechaNacimiento, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            <TextBlock Text="Telefono:" Grid.Row="3"></TextBlock>
+            <TextBox Name="txbTelefono" Grid.Row="3" Grid.Column="1" Text="{Binding Path=personaSeleccionada.telefono, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            <TextBlock Text="Direccion:" Grid.Row="4"></TextBlock>
+            <TextBox Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding Path=personaSeleccionada.direccion, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            <TextBlock Text="idDepartamento:" Grid.Row="5"></TextBlock>
+            <TextBox Name="txbIdDepart" Grid.Row="5" Grid.Column="1" Text="{Binding Path=personaSeleccionada.idDepartamento, Mode=TwoWay}" Margin="10,0,0,0"></TextBox>
+            
+        </Grid>
+
+        <ComboBox Name="cbox" ItemsSource="{Binding listadoDepartamentos}"
+                  SelectedValuePath="id"
+                  SelectedValue="{Binding personaSeleccionada.idDepartamento, Mode=TwoWay}"
+                  BorderBrush="Black" BorderThickness="2"
+                  RelativePanel.Below="grid" RelativePanel.RightOf="lv" Margin="40,20,0,0"
+                  >
+
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=id}"></TextBlock>
+                        <TextBlock Text="{Binding Path=nombre}" Margin="5,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <!--<ListView Name="lv2" ItemsSource="{Binding listadoDepartamentos}" 
+                  
+                  BorderBrush="Black" BorderThickness="2" RelativePanel.Below="grid" RelativePanel.RightOf="lv" Margin="40,20,0,0">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=id}"></TextBlock>
+                        <TextBlock Text="{Binding Path=nombre}" Margin="5,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>-->
+
+    </RelativePanel>
+</Page>

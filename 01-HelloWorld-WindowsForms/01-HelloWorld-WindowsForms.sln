@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HelloWorld-WindowsForms-CSharp", "01-HelloWorld-WindowsForms-CSharp\01-HelloWorld-WindowsForms-CSharp.csproj", "{A3834E89-D636-4009-B18C-BCFC06FA1DA0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "01-HelloWorld-WindowsForms-VB", "01-HelloWorld-WindowsForms-VB\01-HelloWorld-WindowsForms-VB.vbproj", "{1767AEB7-337A-4983-B937-9AE7DE67D58B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3834E89-D636-4009-B18C-BCFC06FA1DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3834E89-D636-4009-B18C-BCFC06FA1DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3834E89-D636-4009-B18C-BCFC06FA1DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3834E89-D636-4009-B18C-BCFC06FA1DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1767AEB7-337A-4983-B937-9AE7DE67D58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1767AEB7-337A-4983-B937-9AE7DE67D58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1767AEB7-337A-4983-B937-9AE7DE67D58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1767AEB7-337A-4983-B937-9AE7DE67D58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {157A2930-80F5-4212-99C8-A2609399953C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+C:\Users\dasoler\source\repos\03-HelloWorld-UWP\03-HelloWorld-UWP\03-HelloWorld-UWP.csproj;x86

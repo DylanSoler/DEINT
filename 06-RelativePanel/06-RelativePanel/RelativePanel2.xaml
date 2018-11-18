@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="_06_RelativePanel.RelativePanel2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_06_RelativePanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <!--ir a otra pagina-->
+        <StackPanel Name="stk1" RelativePanel.AlignTopWithPanel="True" Orientation="Horizontal">
+            <AppBarButton Icon="Accept"/>
+            <AppBarButton Icon="Account"/>
+            <AppBarButton Icon="Delete"/>
+            <AppBarButton Icon="Calendar"/>
+        </StackPanel>
+
+        <StackPanel Name="lv" RelativePanel.Below="stk1" RelativePanel.AlignLeftWith="stk1" RelativePanel.AlignRightWith="stk1">
+            <ListView>
+                <ListView.Items>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                    <ListViewItem>hola que tal</ListViewItem>
+                </ListView.Items>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Name="iconoAdd" RelativePanel.Below="lv" RelativePanel.AlignRightWith="stk1">
+            <AppBarButton Icon="Add" HorizontalAlignment="Right"/>
+            <!--aniadir items-->
+        </StackPanel>
+
+        <StackPanel Name="flechas" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWith="lv" RelativePanel.AlignLeftWith="lv" Orientation="Horizontal">
+            <AppBarButton Icon="Back"></AppBarButton>
+            <AppBarButton Icon="Forward"></AppBarButton>
+        </StackPanel>
+        
+    </RelativePanel>
+</Page>
