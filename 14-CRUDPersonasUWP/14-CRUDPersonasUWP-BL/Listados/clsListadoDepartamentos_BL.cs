@@ -17,7 +17,7 @@ namespace _14_CRUDPersonasUWP_BL.Listados
         /// Función que devuelve un listado completo de departamentos, vacio si no hay datos o si ha habido un error
         /// </summary>
         /// <returns>List de clsDepartamentos</returns>
-        public List<clsDepartamento> listadoCompletoPersonas_BL()
+        public List<clsDepartamento> listadoCompletoDepartamentos_BL()
         {
 
             List<clsDepartamento> listado = new List<clsDepartamento>();

@@ -28,6 +28,7 @@ namespace _14_CRUDPersonasUWP_UI.Views
 
         }
 
+
         /// <summary>
         /// Evento asociado al botón de Guardar
         /// Actualiza la persona seleccionada

@@ -45,6 +45,9 @@
                 </Button.Content>
             </Button>
 
+            <TextBox MinWidth="200" Margin="50,5,0,5" Text="{Binding textoBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30"></TextBox>
+            <AppBarButton Icon="Find" Width="20"></AppBarButton>
+
         </StackPanel>
         
         
@@ -66,7 +69,7 @@
         </ListView>
 
         <!--Grid con los detalles de las persona seleccionada-->
-        <Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=OneWay}">
+        <Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=TwoWay}">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -101,7 +104,7 @@
         
             <!--listado departamentos-->
         <ComboBox Name="cbox" ItemsSource="{Binding listadoDepartamentos}"
-                  Visibility="{Binding Path=formularioVisible, Mode=OneWay}" SelectedValuePath="id"
+                  Visibility="{Binding Path=formularioVisible, Mode=TwoWay}" SelectedValuePath="id"
                   SelectedValue="{Binding personaSeleccionada.idDepartamento, Mode=TwoWay}"
                   BorderBrush="Black" BorderThickness="1" MinWidth="120" Background="White"
                   RelativePanel.Below="grid" RelativePanel.RightOf="lv" Margin="80,20,0,0"

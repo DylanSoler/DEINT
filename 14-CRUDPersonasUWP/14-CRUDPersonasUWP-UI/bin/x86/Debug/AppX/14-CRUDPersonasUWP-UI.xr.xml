@@ -13,6 +13,7 @@
     <RootPropertyPathName Name="apellidos" />
     <RootPropertyPathName Name="idPersona" />
     <RootPropertyPathName Name="listadoPersonas" />
+    <RootPropertyPathName Name="textoBuscar" />
     <RootPropertyPathName Name="eliminarCommand" />
     <RootPropertyPathName Name="insertarCommand" />
     <RootPropertyPathName Name="guardarCommand" />
@@ -115,6 +116,7 @@
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Background" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Name" />
@@ -123,6 +125,10 @@
       <RootProperty Name="Command" />
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />

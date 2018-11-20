@@ -296,6 +296,7 @@ namespace _14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo
                 userType.AddMemberName("guardarCommand");
                 userType.AddMemberName("insertarCommand");
                 userType.AddMemberName("formularioVisible");
+                userType.AddMemberName("textoBuscar");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -535,10 +536,15 @@ namespace _14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo
             var that = (global::_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel)instance;
             return that.formularioVisible;
         }
-        private void set_16_MainPageViewModel_formularioVisible(object instance, object Value)
+        private object get_17_MainPageViewModel_textoBuscar(object instance)
         {
             var that = (global::_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel)instance;
-            that.formularioVisible = (global::System.String)Value;
+            return that.textoBuscar;
+        }
+        private void set_17_MainPageViewModel_textoBuscar(object instance, object Value)
+        {
+            var that = (global::_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel)instance;
+            that.textoBuscar = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -648,7 +654,13 @@ namespace _14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo
                 userType = (global::_14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel");
                 xamlMember = new global::_14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo.XamlMember(this, "formularioVisible", "String");
                 xamlMember.Getter = get_16_MainPageViewModel_formularioVisible;
-                xamlMember.Setter = set_16_MainPageViewModel_formularioVisible;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel.textoBuscar":
+                userType = (global::_14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_14_CRUDPersonasUWP_UI.ViewModels.MainPageViewModel");
+                xamlMember = new global::_14_CRUDPersonasUWP_UI._4_CRUDPersonasUWP_UI_XamlTypeInfo.XamlMember(this, "textoBuscar", "String");
+                xamlMember.Getter = get_17_MainPageViewModel_textoBuscar;
+                xamlMember.Setter = set_17_MainPageViewModel_textoBuscar;
                 break;
             }
             return xamlMember;
