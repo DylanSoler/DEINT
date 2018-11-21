@@ -1,1 +1,1 @@
-E:\DAM\Segundo\DEINT\Unidades\Ejercicios\09-EjercicioControles\09-EjercicioControles\09-EjercicioControles.csproj;x86
+C:\Users\NitroPC\source\repos\DEINT\09-EjercicioControles\09-EjercicioControles\09-EjercicioControles.csproj;x86

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>825f4ff7-9508-466c-97d8-53502302a0d0</PackageIdentityName>
     <PackageIdentityPublisher>CN=dasoler</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.exe">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.exe">
       <PackagePath>entrypoint\11-SplitView.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,95 +370,95 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat1.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat1.jpg">
       <PackagePath>Assets\cat1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat2.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat2.jpg">
       <PackagePath>Assets\cat2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat3.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat3.jpg">
       <PackagePath>Assets\cat3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat4.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat4.jpg">
       <PackagePath>Assets\cat4.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat5.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat5.jpg">
       <PackagePath>Assets\cat5.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat6.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat6.jpg">
       <PackagePath>Assets\cat6.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat7.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat7.jpg">
       <PackagePath>Assets\cat7.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat8.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat8.jpg">
       <PackagePath>Assets\cat8.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat9.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat9.jpg">
       <PackagePath>Assets\cat9.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\colorear.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\colorear.png">
       <PackagePath>Assets\colorear.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\gatoprogramador.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\gatoprogramador.png">
       <PackagePath>Assets\gatoprogramador.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.xr.xml">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.xr.xml">
       <PackagePath>11-SplitView.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\PrimeraPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\PrimeraPagina.xbf">
       <PackagePath>PrimeraPagina.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\SegundaPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\SegundaPagina.xbf">
       <PackagePath>SegundaPagina.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\TerceraPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\TerceraPagina.xbf">
       <PackagePath>TerceraPagina.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\Core\11-SplitView.exe">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\Core\11-SplitView.exe">
       <PackagePath>11-SplitView.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

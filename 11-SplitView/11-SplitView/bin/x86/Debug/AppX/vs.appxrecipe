@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>825f4ff7-9508-466c-97d8-53502302a0d0</PackageIdentityName>
     <PackageIdentityPublisher>CN=dasoler</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>78B21D1B84C7CA9D1F98711ACEF4FAE130A6F5CE2B266E941AC121E74645DC45</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>825f4ff7-9508-466c-97d8-53502302a0d0_1.0.0.0_x86__ea5qwgs4c9p9g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>825f4ff7-9508-466c-97d8-53502302a0d0_ea5qwgs4c9p9g!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-30T18:56:26.218</Modified>
+      <Modified>2018-11-21T00:08:32.824</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.exe">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.exe">
       <PackagePath>entrypoint\11-SplitView.exe</PackagePath>
-      <Modified>2018-10-30T18:56:25.397</Modified>
+      <Modified>2018-11-21T00:08:30.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,124 +495,124 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat1.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat1.jpg">
       <PackagePath>Assets\cat1.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.622</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat2.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat2.jpg">
       <PackagePath>Assets\cat2.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.657</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat3.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat3.jpg">
       <PackagePath>Assets\cat3.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.668</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat4.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat4.jpg">
       <PackagePath>Assets\cat4.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.679</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat5.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat5.jpg">
       <PackagePath>Assets\cat5.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.690</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat6.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat6.jpg">
       <PackagePath>Assets\cat6.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.702</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat7.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat7.jpg">
       <PackagePath>Assets\cat7.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.713</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat8.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat8.jpg">
       <PackagePath>Assets\cat8.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.725</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\cat9.jpg">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\cat9.jpg">
       <PackagePath>Assets\cat9.jpg</PackagePath>
-      <Modified>2018-10-30T17:01:31.727</Modified>
+      <Modified>2018-10-30T17:01:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\colorear.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\colorear.png">
       <PackagePath>Assets\colorear.png</PackagePath>
-      <Modified>2018-10-30T17:44:25.810</Modified>
+      <Modified>2018-10-30T17:44:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\gatoprogramador.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\gatoprogramador.png">
       <PackagePath>Assets\gatoprogramador.png</PackagePath>
-      <Modified>2018-10-30T18:24:17.949</Modified>
+      <Modified>2018-10-30T18:24:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-11T07:46:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-10-29T12:07:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.xr.xml">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\11-SplitView.xr.xml">
       <PackagePath>11-SplitView.xr.xml</PackagePath>
-      <Modified>2018-10-30T18:48:49.372</Modified>
+      <Modified>2018-10-30T18:48:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-30T18:56:25.165</Modified>
+      <Modified>2018-11-21T00:08:30.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-30T18:56:25.166</Modified>
+      <Modified>2018-11-21T00:08:30.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\PrimeraPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\PrimeraPagina.xbf">
       <PackagePath>PrimeraPagina.xbf</PackagePath>
-      <Modified>2018-10-30T18:56:25.166</Modified>
+      <Modified>2018-11-21T00:08:30.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\SegundaPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\SegundaPagina.xbf">
       <PackagePath>SegundaPagina.xbf</PackagePath>
-      <Modified>2018-10-30T18:56:25.167</Modified>
+      <Modified>2018-11-21T00:08:30.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\TerceraPagina.xbf">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\TerceraPagina.xbf">
       <PackagePath>TerceraPagina.xbf</PackagePath>
-      <Modified>2018-10-30T18:56:25.168</Modified>
+      <Modified>2018-11-21T00:08:30.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T20:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-30T18:48:52.382</Modified>
+      <Modified>2018-11-21T00:08:32.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\11-SplitView\11-SplitView\bin\x86\Debug\Core\11-SplitView.exe">
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\11-SplitView\11-SplitView\bin\x86\Debug\Core\11-SplitView.exe">
       <PackagePath>11-SplitView.exe</PackagePath>
-      <Modified>2018-10-30T18:56:26.209</Modified>
+      <Modified>2018-11-21T00:08:32.815</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
