@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="_15_Resources.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_15_Resources">
+
+    <Application.Resources>
+
+        <LinearGradientBrush x:Key="buttonBackground2">
+            <GradientStop Offset="0" Color="Silver"/>
+            <GradientStop Offset="0.6" Color="OrangeRed"/>
+            <GradientStop Offset="1" Color="Red"/>
+        </LinearGradientBrush>
+
+
+    </Application.Resources>
+    
+
+
+
+</Application>

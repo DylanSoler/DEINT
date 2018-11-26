@@ -27507,11 +27507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\11-SplitView\\11-SplitView\\11-SplitView.csproj",
+      "projectUniqueName": "C:\\Users\\NitroPC\\source\\repos\\11-SplitView\\11-SplitView\\11-SplitView.csproj",
       "projectName": "11-SplitView",
-      "projectPath": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\11-SplitView\\11-SplitView\\11-SplitView.csproj",
+      "projectPath": "C:\\Users\\NitroPC\\source\\repos\\11-SplitView\\11-SplitView\\11-SplitView.csproj",
       "packagesPath": "C:\\Users\\NitroPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\11-SplitView\\11-SplitView\\obj\\",
+      "outputPath": "C:\\Users\\NitroPC\\source\\repos\\11-SplitView\\11-SplitView\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

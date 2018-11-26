@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8D7DAD456DAB6CEA59693CA4880246316F13CBFDA1C104F4404B53FA5728AD44</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E939528FB9FD01AF09E93C2FD9041B950CB533F09DD9DDEB372B783F5A97BB05</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>175ceb5d-0119-442c-b24f-7fc9b41b6f2a_1.0.0.0_x86__ea5qwgs4c9p9g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>175ceb5d-0119-442c-b24f-7fc9b41b6f2a_ea5qwgs4c9p9g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>175ceb5d-0119-442c-b24f-7fc9b41b6f2a</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-20T12:38:55.055</Modified>
+      <Modified>2018-11-26T13:00:13.908</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\14-CRUDPersonasUWP-UI.exe">
       <PackagePath>entrypoint\14-CRUDPersonasUWP-UI.exe</PackagePath>
-      <Modified>2018-11-20T12:38:53.340</Modified>
+      <Modified>2018-11-26T13:00:12.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -697,15 +697,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-BL\bin\x86\Debug\14-CRUDPersonasUWP-BL.dll">
       <PackagePath>14-CRUDPersonasUWP-BL.dll</PackagePath>
-      <Modified>2018-11-19T12:30:20.497</Modified>
+      <Modified>2018-11-26T12:41:28.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-Entidades\bin\x86\Debug\14-CRUDPersonasUWP-Entidades.dll">
       <PackagePath>14-CRUDPersonasUWP-Entidades.dll</PackagePath>
-      <Modified>2018-11-19T12:30:18.611</Modified>
+      <Modified>2018-11-26T12:41:25.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-BL\bin\x86\Debug\14-CRUDPersonasUWP-DAL.dll">
       <PackagePath>14-CRUDPersonasUWP-DAL.dll</PackagePath>
-      <Modified>2018-11-19T12:30:19.769</Modified>
+      <Modified>2018-11-26T12:41:27.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
@@ -767,15 +767,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\14-CRUDPersonasUWP-UI.xr.xml">
       <PackagePath>14-CRUDPersonasUWP-UI.xr.xml</PackagePath>
-      <Modified>2018-11-19T13:02:57.751</Modified>
+      <Modified>2018-11-26T13:00:11.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-20T12:38:53.051</Modified>
+      <Modified>2018-11-26T13:00:11.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2018-11-20T12:38:53.051</Modified>
+      <Modified>2018-11-26T13:00:11.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -784,11 +784,11 @@
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-19T10:55:48.423</Modified>
+      <Modified>2018-11-26T12:41:37.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\14-CRUDPersonasUWP\14-CRUDPersonasUWP-UI\bin\x86\Debug\Core\14-CRUDPersonasUWP-UI.exe">
       <PackagePath>14-CRUDPersonasUWP-UI.exe</PackagePath>
-      <Modified>2018-11-20T12:38:55.047</Modified>
+      <Modified>2018-11-26T13:00:13.899</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

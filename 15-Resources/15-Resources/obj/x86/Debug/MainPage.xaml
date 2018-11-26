@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="_15_Resources.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_15_Resources"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="botones.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <LinearGradientBrush x:Key="buttonBackground">
+                <GradientStop Offset="0" Color="Silver"/>
+                <GradientStop Offset="1" Color="LightBlue"/>
+            </LinearGradientBrush>
+        </ResourceDictionary>
+
+    </Page.Resources>
+
+    <StackPanel Margin="40">
+
+        <!--Definido en page resources-->
+        <Button Content="page resources" Margin="20" Background="{StaticResource buttonBackground}"></Button>
+        <!--Definido en application-->
+        <Button Content="application"  Margin="20" Background="{StaticResource buttonBackground2}"></Button>
+        <!--Definido en un diccionario de recursos, para mezclarlo tienes que meter el recurso en ResourceDictionary-->
+        <Button Content="resource dictionary"  Margin="20" Background="{StaticResource buttonBackground3}"></Button>
+
+    </StackPanel>
+</Page>
+
