@@ -189,31 +189,33 @@ namespace ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
-            _typeNameTable[0] = "ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel";
-            _typeNameTable[1] = "ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase";
-            _typeNameTable[2] = "Object";
-            _typeNameTable[3] = "System.Collections.Generic.List`1<ExamenDylan1EvaluacionDEINT.Models.clsImagen>";
-            _typeNameTable[4] = "ExamenDylan1EvaluacionDEINT.Models.clsImagen";
-            _typeNameTable[5] = "Int32";
-            _typeNameTable[6] = "String";
-            _typeNameTable[7] = "_14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand";
-            _typeNameTable[8] = "ExamenDylan1EvaluacionDEINT.MainPage";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[12];
+            _typeNameTable[0] = "ExamenDylan1EvaluacionDEINT.Views.BlankPage1";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel";
+            _typeNameTable[4] = "ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase";
+            _typeNameTable[5] = "Object";
+            _typeNameTable[6] = "System.Collections.Generic.List`1<ExamenDylan1EvaluacionDEINT.Models.clsImagen>";
+            _typeNameTable[7] = "ExamenDylan1EvaluacionDEINT.Models.clsImagen";
+            _typeNameTable[8] = "Int32";
+            _typeNameTable[9] = "String";
+            _typeNameTable[10] = "_14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand";
+            _typeNameTable[11] = "ExamenDylan1EvaluacionDEINT.MainPage";
 
-            _typeTable = new global::System.Type[11];
-            _typeTable[0] = typeof(global::ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel);
-            _typeTable[1] = typeof(global::ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase);
-            _typeTable[2] = typeof(global::System.Object);
-            _typeTable[3] = typeof(global::System.Collections.Generic.List<global::ExamenDylan1EvaluacionDEINT.Models.clsImagen>);
-            _typeTable[4] = typeof(global::ExamenDylan1EvaluacionDEINT.Models.clsImagen);
-            _typeTable[5] = typeof(global::System.Int32);
-            _typeTable[6] = typeof(global::System.String);
-            _typeTable[7] = typeof(global::_14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand);
-            _typeTable[8] = typeof(global::ExamenDylan1EvaluacionDEINT.MainPage);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[12];
+            _typeTable[0] = typeof(global::ExamenDylan1EvaluacionDEINT.Views.BlankPage1);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel);
+            _typeTable[4] = typeof(global::ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase);
+            _typeTable[5] = typeof(global::System.Object);
+            _typeTable[6] = typeof(global::System.Collections.Generic.List<global::ExamenDylan1EvaluacionDEINT.Models.clsImagen>);
+            _typeTable[7] = typeof(global::ExamenDylan1EvaluacionDEINT.Models.clsImagen);
+            _typeTable[8] = typeof(global::System.Int32);
+            _typeTable[9] = typeof(global::System.String);
+            _typeTable[10] = typeof(global::_14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand);
+            _typeTable[11] = typeof(global::ExamenDylan1EvaluacionDEINT.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -248,10 +250,11 @@ namespace ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ViewModel() { return new global::ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel(); }
-        private object Activate_3_List() { return new global::System.Collections.Generic.List<global::ExamenDylan1EvaluacionDEINT.Models.clsImagen>(); }
-        private object Activate_8_MainPage() { return new global::ExamenDylan1EvaluacionDEINT.MainPage(); }
-        private void VectorAdd_3_List(object instance, object item)
+        private object Activate_0_BlankPage1() { return new global::ExamenDylan1EvaluacionDEINT.Views.BlankPage1(); }
+        private object Activate_3_ViewModel() { return new global::ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel(); }
+        private object Activate_6_List() { return new global::System.Collections.Generic.List<global::ExamenDylan1EvaluacionDEINT.Models.clsImagen>(); }
+        private object Activate_11_MainPage() { return new global::ExamenDylan1EvaluacionDEINT.MainPage(); }
+        private void VectorAdd_6_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ExamenDylan1EvaluacionDEINT.Models.clsImagen>)instance;
             var newItem = (global::ExamenDylan1EvaluacionDEINT.Models.clsImagen)item;
@@ -268,9 +271,24 @@ namespace ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel
+            case 0:   //  ExamenDylan1EvaluacionDEINT.Views.BlankPage1
+                userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_BlankPage1;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 1:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  ExamenDylan1EvaluacionDEINT.ViewModels.ViewModel
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase"));
-                userType.Activator = Activate_0_ViewModel;
+                userType.Activator = Activate_3_ViewModel;
                 userType.AddMemberName("imagenes");
                 userType.AddMemberName("imagenPulsada");
                 userType.AddMemberName("finPartida");
@@ -279,24 +297,24 @@ namespace ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 1:   //  ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase
+            case 4:   //  ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 2:   //  Object
+            case 5:   //  Object
                 xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  System.Collections.Generic.List`1<ExamenDylan1EvaluacionDEINT.Models.clsImagen>
+            case 6:   //  System.Collections.Generic.List`1<ExamenDylan1EvaluacionDEINT.Models.clsImagen>
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_3_List;
+                userType.CollectionAdd = VectorAdd_6_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 4:   //  ExamenDylan1EvaluacionDEINT.Models.clsImagen
+            case 7:   //  ExamenDylan1EvaluacionDEINT.Models.clsImagen
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ExamenDylan1EvaluacionDEINT.ViewModels.clsVMBase"));
                 userType.AddMemberName("numero");
                 userType.AddMemberName("ruta");
@@ -304,34 +322,26 @@ namespace ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  Int32
+            case 8:   //  Int32
                 xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  String
+            case 9:   //  String
                 xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  _14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand
+            case 10:   //  _14_CRUDPersonasUWP_UI.ViewModels.DelegateCommand
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  ExamenDylan1EvaluacionDEINT.MainPage
+            case 11:   //  ExamenDylan1EvaluacionDEINT.MainPage
                 userType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_MainPage;
+                userType.Activator = Activate_11_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
-                break;
-
-            case 9:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 10:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::ExamenDylan1EvaluacionDEINT.ExamenDylan1EvaluacionDEINT_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;

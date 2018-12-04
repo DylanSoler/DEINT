@@ -565,6 +565,9 @@
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Views\BlankPage1.xbf">
+      <PackagePath>Views\BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>

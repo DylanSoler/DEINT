@@ -1,0 +1,5 @@
+C:\Users\dasoler\source\repos\DI\16-CRUDPersonasUWP-xBin\14-CRUDPersonasUWP-BL\14-CRUDPersonasUWP-BL.csproj;x86
+C:\Users\dasoler\source\repos\DI\16-CRUDPersonasUWP-xBin\14-CRUDPersonasUWP-DAL\14-CRUDPersonasUWP-DAL.csproj;x86
+C:\Users\dasoler\source\repos\DI\16-CRUDPersonasUWP-xBin\14-CRUDPersonasUWP-Entidades\14-CRUDPersonasUWP-Entidades.csproj;x86
+C:\Users\dasoler\source\repos\DI\16-CRUDPersonasUWP-xBin\14-CRUDPersonasUWP-Entidades\14-CRUDPersonasUWP-Entidades.csproj;x86
+C:\Users\dasoler\source\repos\DI\16-CRUDPersonasUWP-xBin\14-CRUDPersonasUWP-UI\14-CRUDPersonasUWP-UI.csproj;x86

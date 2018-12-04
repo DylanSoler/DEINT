@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>512BEBC2465FD5C07AF21A816A4AA2F99F2E6AC98446B6249A24FF52516D8C5C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CCF91BE01DA4B557EF462F98DC1DC921FE92BAAE1583A4EC308AF121CEF7A4AE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1e3b9f7c-d2de-4b83-bd84-14aae0b5cd1c_1.0.0.0_x86__ea5qwgs4c9p9g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1e3b9f7c-d2de-4b83-bd84-14aae0b5cd1c_ea5qwgs4c9p9g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>1e3b9f7c-d2de-4b83-bd84-14aae0b5cd1c</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-21T18:15:47.171</Modified>
+      <Modified>2018-12-04T01:46:36.119</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\ExamenDylan1EvaluacionDEINT.exe">
       <PackagePath>entrypoint\ExamenDylan1EvaluacionDEINT.exe</PackagePath>
-      <Modified>2018-11-21T18:15:34.006</Modified>
+      <Modified>2018-12-04T01:46:34.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -747,15 +747,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\ExamenDylan1EvaluacionDEINT.xr.xml">
       <PackagePath>ExamenDylan1EvaluacionDEINT.xr.xml</PackagePath>
-      <Modified>2018-11-21T11:58:16.000</Modified>
+      <Modified>2018-12-04T01:46:34.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-21T18:15:33.459</Modified>
+      <Modified>2018-12-04T01:46:34.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Views\BlankPage1.xbf">
+      <PackagePath>Views\BlankPage1.xbf</PackagePath>
+      <Modified>2018-12-04T01:46:34.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2018-11-21T18:15:33.459</Modified>
+      <Modified>2018-12-04T01:46:34.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -764,11 +768,11 @@
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-21T18:15:45.656</Modified>
+      <Modified>2018-12-04T01:46:35.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NitroPC\source\repos\DEINT\ExamenDylan1EvaluacionDEINT\ExamenDylan1EvaluacionDEINT\bin\x86\Debug\Core\ExamenDylan1EvaluacionDEINT.exe">
       <PackagePath>ExamenDylan1EvaluacionDEINT.exe</PackagePath>
-      <Modified>2018-11-21T18:15:47.158</Modified>
+      <Modified>2018-12-04T01:46:36.111</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
