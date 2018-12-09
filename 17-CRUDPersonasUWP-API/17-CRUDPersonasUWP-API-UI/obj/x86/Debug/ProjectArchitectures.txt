@@ -1,0 +1,5 @@
+C:\Users\NitroPC\source\repos\DEINT\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-BL\17-CRUDPersonasUWP-API-BL.csproj;x86
+C:\Users\NitroPC\source\repos\DEINT\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-DAL\17-CRUDPersonasUWP-API-DAL.csproj;x86
+C:\Users\NitroPC\source\repos\DEINT\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-Entidades\17-CRUDPersonasUWP-API-Entidades.csproj;x86
+C:\Users\NitroPC\source\repos\DEINT\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-Entidades\17-CRUDPersonasUWP-API-Entidades.csproj;x86
+C:\Users\NitroPC\source\repos\DEINT\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\17-CRUDPersonasUWP-API-UI.csproj;x86

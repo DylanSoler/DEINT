@@ -16,10 +16,10 @@ namespace _17_CRUDPersonasUWP_API_DAL.Listados
     {
 
         /// <summary>
-        /// 
+        /// Metodo que devuelve el listado completo de personas
         /// </summary>
-        /// <returns></returns>
-        public async Task<List<clsPersona>> listadoCompletoPersonas()
+        /// <returns>List de clsPersona</returns>
+        public async Task<List<clsPersona>> listadoCompletoPersonasDAL()
         {
             clsUriBase uribase = new clsUriBase();
             String ruta = uribase.getUriBaseApi();
@@ -29,12 +29,13 @@ namespace _17_CRUDPersonasUWP_API_DAL.Listados
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(ruta);
 
-            HttpResponseMessage response = await client.GetAsync("/Personas");
+            HttpResponseMessage response = await client.GetAsync("/api/Personas");
 
             if (response.IsSuccessStatusCode)
             {
                 string lista = await response.Content.ReadAsStringAsync();
-                listado = JsonConvert.DeserializeObject(lista);
+                listado = JsonConvert.DeserializeObject<List<clsPersona>>(lista);
+
             }
             else
             {
