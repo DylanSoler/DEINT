@@ -6,13 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _17_CRUDPersonasUWP_API_UI
+namespace _17_CRUDPersonasUWP_API_UI.ViewModel
 {
     public class clsViewModel:clsVMBase
     {
 
         #region Propiedades privadas
         private List<clsPersona> _listadoP;
+        private bool _progRing;
         #endregion
 
         #region Propiedades publicas
@@ -22,6 +23,14 @@ namespace _17_CRUDPersonasUWP_API_UI
             get { return _listadoP; }
 
             set { _listadoP = value; }
+        }
+
+        public bool progRing
+        {
+
+            get { return _progRing; }
+
+            set { _progRing = value; }
         }
         #endregion
 
@@ -34,10 +43,14 @@ namespace _17_CRUDPersonasUWP_API_UI
 
         private async void InitializeAsync()
         {
+            _progRing = true;
+            NotifyPropertyChanged("progRing");
             clsListadosPersonasBL gest = new clsListadosPersonasBL();
             
             _listadoP = await gest.listadoCompletoPersonasBL();
             NotifyPropertyChanged("listadoP");
+            _progRing = false;
+            NotifyPropertyChanged("progRing");
         }
 
     }

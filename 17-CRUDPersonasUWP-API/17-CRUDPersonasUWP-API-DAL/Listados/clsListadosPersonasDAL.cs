@@ -27,12 +27,13 @@ namespace _17_CRUDPersonasUWP_API_DAL.Listados
             List<clsPersona> listado = new List<clsPersona>();
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(ruta);
+            //client.BaseAddress = new Uri(ruta);
 
-            HttpResponseMessage response = await client.GetAsync("/api/Personas");
+            HttpResponseMessage response = await client.GetAsync($"{ruta}/Personas");
 
             if (response.IsSuccessStatusCode)
             {
+                //                   client.GetStringAsync(miUri)
                 string lista = await response.Content.ReadAsStringAsync();
                 listado = JsonConvert.DeserializeObject<List<clsPersona>>(lista);
 

@@ -1,0 +1,133 @@
+﻿<Page
+    x:Class="_17_CRUDPersonasUWP_API_UI.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_17_CRUDPersonasUWP_API_UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:_17_CRUDPersonasUWP_API_UI.ViewModel"
+    xmlns:Converter="using:_17_CRUDPersonasUWP_API_UI.ViewModel.Converters"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="446" d:DesignHeight="536">
+
+    <Page.DataContext>
+        <vm:clsViewModel></vm:clsViewModel>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <Converter:clsConverterFechaCorta x:Key="fechaCorta"></Converter:clsConverterFechaCorta>
+    </Page.Resources>
+
+    <RelativePanel Margin="20" BorderBrush="Black" BorderThickness="1" Background="FloralWhite">
+        
+        <!--StackPanel con los botones (guardar,eliminar,...)-->
+        <StackPanel Name="stkBotones" Orientation="Horizontal" RelativePanel.AlignTopWithPanel="True" 
+                    RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
+                    BorderBrush="Black" BorderThickness="0,0,0,1" Background="AliceBlue">
+
+            <!--<Button Name="btnActualizar" Width="40" Height="40"  Command="{Binding actualizarListadoCommand}" Background="AliceBlue">
+                <Button.Content>
+                    <Image Source="../Assets/reload.png"></Image>
+                </Button.Content>
+            </Button>
+
+            <Button Name="btnGuardar" Width="40" Height="40" Command="{Binding guardarCommand}" Background="AliceBlue">
+                <Button.Content>
+                    <Image Source="../Assets/save.png"></Image>
+                </Button.Content>
+            </Button>
+
+            <Button Name="btnInsertar" Width="40" Height="40" Command="{Binding insertarCommand}" Background="AliceBlue">
+                <Button.Content>
+                    <Image Source="../Assets/add.png"></Image>
+                </Button.Content>
+            </Button>
+
+            <Button Name="btnEliminar" Width="40" Height="40" Command="{Binding eliminarCommand}" Background="AliceBlue">
+                <Button.Content>
+                    <Image Source="../Assets/delete.png"></Image>
+                </Button.Content>
+            </Button>
+
+            <TextBox MinWidth="200" Margin="50,5,0,5" Text="{Binding textoBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30"></TextBox>
+            <AppBarButton Icon="Find" Width="20"></AppBarButton>-->
+
+        </StackPanel>
+
+
+        <!--listado de las personas de la BBDD-->
+        <ListView Name="lv" ItemsSource="{Binding listadoP}"  
+                  BorderBrush="Black" BorderThickness="0,0,1,0" RelativePanel.Below="stkBotones"
+                  RelativePanel.AlignBottomWithPanel="True" Background="AntiqueWhite">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="20,20,20,10">
+                        <TextBlock Text="{Binding Path=nombre}"></TextBlock>
+                        <TextBlock Text="{Binding Path=apellidos}" Margin="5,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <ProgressRing IsActive="{Binding progRing}" Height="100" Width="100" 
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      RelativePanel.AlignVerticalCenterWithPanel="True"
+                      ></ProgressRing>
+
+        <!--Grid con los detalles de las persona seleccionada-->
+        <!--<Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=TwoWay}">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Name="txbID" Visibility="Collapsed" Text="{Binding Path=personaSeleccionada.idPersona, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock Text="Nombre:" Grid.Row="0"></TextBlock>
+            <TextBox Name="txbNombre" Grid.Column="1" Text="{Binding Path=personaSeleccionada.nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" MinWidth="120" Background="White"></TextBox>
+            <TextBlock Text="Apellidos:" Grid.Row="1"></TextBlock>
+            <TextBox Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding Path=personaSeleccionada.apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+            <TextBlock Text="Fecha nacimiento: " Grid.Row="2"></TextBlock>
+            <TextBox Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding Path=personaSeleccionada.fechaNacimiento, Mode=TwoWay, Converter={StaticResource fechaCorta}, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+            <TextBlock Text="Telefono:" Grid.Row="3"></TextBlock>
+            <TextBox Name="txbTelefono" Grid.Row="3" Grid.Column="1" Text="{Binding Path=personaSeleccionada.telefono, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+            <TextBlock Text="Direccion:" Grid.Row="4"></TextBlock>
+            <TextBox Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding Path=personaSeleccionada.direccion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+
+            --><!--<TextBlock Visibility="Collapsed" Text="idDepartamento:" Grid.Row="5"></TextBlock>--><!--
+            <TextBox Visibility="Collapsed" Name="txbIdDepart" Grid.Row="5" Grid.Column="1" Text="{Binding Path=personaSeleccionada.idDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+
+        </Grid>
+
+        --><!--listado departamentos--><!--
+        <ComboBox Name="cbox" ItemsSource="{Binding listadoDepartamentos}"
+                  Visibility="{Binding Path=formularioVisible, Mode=TwoWay}" SelectedValuePath="id"
+                  SelectedValue="{Binding personaSeleccionada.idDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                  BorderBrush="Black" BorderThickness="1" MinWidth="120" Background="White"
+                  RelativePanel.Below="grid" RelativePanel.RightOf="lv" Margin="80,20,0,0"
+                  >
+
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=id}"></TextBlock>
+                        <TextBlock Text="{Binding Path=nombre}" Margin="5,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>-->
+
+    </RelativePanel>
+
+</Page>

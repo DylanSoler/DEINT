@@ -95,9 +95,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="clsViewModel.cs" />
-    <Compile Include="clsVMBase.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="ViewModel\clsViewModel.cs" />
+    <Compile Include="ViewModel\clsVMBase.cs" />
+    <Compile Include="ViewModel\Converters\clsConverterFechaCorta.cs" />
+    <Compile Include="ViewModel\NotifyTaskCompletion.cs" />
+    <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,7 +125,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
+    <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -143,6 +145,7 @@
       <Name>17-CRUDPersonasUWP-API-Entidades</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

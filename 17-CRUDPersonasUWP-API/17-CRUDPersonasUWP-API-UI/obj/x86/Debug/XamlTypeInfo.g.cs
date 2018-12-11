@@ -189,9 +189,9 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[12];
-            _typeNameTable[0] = "_17_CRUDPersonasUWP_API_UI.clsViewModel";
-            _typeNameTable[1] = "_17_CRUDPersonasUWP_API_UI.clsVMBase";
+            _typeNameTable = new string[14];
+            _typeNameTable[0] = "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel";
+            _typeNameTable[1] = "_17_CRUDPersonasUWP_API_UI.ViewModel.clsVMBase";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "System.Collections.Generic.List`1<_17_CRUDPersonasUWP_API_Entidades.clsPersona>";
             _typeNameTable[4] = "_17_CRUDPersonasUWP_API_Entidades.clsPersona";
@@ -199,13 +199,15 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             _typeNameTable[6] = "String";
             _typeNameTable[7] = "System.DateTime";
             _typeNameTable[8] = "System.ValueType";
-            _typeNameTable[9] = "_17_CRUDPersonasUWP_API_UI.MainPage";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[11] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[9] = "Boolean";
+            _typeNameTable[10] = "_17_CRUDPersonasUWP_API_UI.ViewModel.Converters.clsConverterFechaCorta";
+            _typeNameTable[11] = "_17_CRUDPersonasUWP_API_UI.Views.MainPage";
+            _typeNameTable[12] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[13] = "Windows.UI.Xaml.Controls.UserControl";
 
-            _typeTable = new global::System.Type[12];
-            _typeTable[0] = typeof(global::_17_CRUDPersonasUWP_API_UI.clsViewModel);
-            _typeTable[1] = typeof(global::_17_CRUDPersonasUWP_API_UI.clsVMBase);
+            _typeTable = new global::System.Type[14];
+            _typeTable[0] = typeof(global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel);
+            _typeTable[1] = typeof(global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsVMBase);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Collections.Generic.List<global::_17_CRUDPersonasUWP_API_Entidades.clsPersona>);
             _typeTable[4] = typeof(global::_17_CRUDPersonasUWP_API_Entidades.clsPersona);
@@ -213,9 +215,11 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             _typeTable[6] = typeof(global::System.String);
             _typeTable[7] = typeof(global::System.DateTime);
             _typeTable[8] = typeof(global::System.ValueType);
-            _typeTable[9] = typeof(global::_17_CRUDPersonasUWP_API_UI.MainPage);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[9] = typeof(global::System.Boolean);
+            _typeTable[10] = typeof(global::_17_CRUDPersonasUWP_API_UI.ViewModel.Converters.clsConverterFechaCorta);
+            _typeTable[11] = typeof(global::_17_CRUDPersonasUWP_API_UI.Views.MainPage);
+            _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -250,10 +254,11 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_clsViewModel() { return new global::_17_CRUDPersonasUWP_API_UI.clsViewModel(); }
+        private object Activate_0_clsViewModel() { return new global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel(); }
         private object Activate_3_List() { return new global::System.Collections.Generic.List<global::_17_CRUDPersonasUWP_API_Entidades.clsPersona>(); }
         private object Activate_4_clsPersona() { return new global::_17_CRUDPersonasUWP_API_Entidades.clsPersona(); }
-        private object Activate_9_MainPage() { return new global::_17_CRUDPersonasUWP_API_UI.MainPage(); }
+        private object Activate_10_clsConverterFechaCorta() { return new global::_17_CRUDPersonasUWP_API_UI.ViewModel.Converters.clsConverterFechaCorta(); }
+        private object Activate_11_MainPage() { return new global::_17_CRUDPersonasUWP_API_UI.Views.MainPage(); }
         private void VectorAdd_3_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::_17_CRUDPersonasUWP_API_Entidades.clsPersona>)instance;
@@ -271,15 +276,16 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  _17_CRUDPersonasUWP_API_UI.clsViewModel
-                userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.clsVMBase"));
+            case 0:   //  _17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel
+                userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsVMBase"));
                 userType.Activator = Activate_0_clsViewModel;
                 userType.AddMemberName("listadoP");
+                userType.AddMemberName("progRing");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  _17_CRUDPersonasUWP_API_UI.clsVMBase
+            case 1:   //  _17_CRUDPersonasUWP_API_UI.ViewModel.clsVMBase
                 userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -328,18 +334,29 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  _17_CRUDPersonasUWP_API_UI.MainPage
-                userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_MainPage;
+            case 9:   //  Boolean
+                xamlType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  _17_CRUDPersonasUWP_API_UI.ViewModel.Converters.clsConverterFechaCorta
+                userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_10_clsConverterFechaCorta;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Page
+            case 11:   //  _17_CRUDPersonasUWP_API_UI.Views.MainPage
+                userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Controls.UserControl
+            case 13:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -349,12 +366,12 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
 
         private object get_0_clsViewModel_listadoP(object instance)
         {
-            var that = (global::_17_CRUDPersonasUWP_API_UI.clsViewModel)instance;
+            var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
             return that.listadoP;
         }
         private void set_0_clsViewModel_listadoP(object instance, object Value)
         {
-            var that = (global::_17_CRUDPersonasUWP_API_UI.clsViewModel)instance;
+            var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
             that.listadoP = (global::System.Collections.Generic.List<global::_17_CRUDPersonasUWP_API_Entidades.clsPersona>)Value;
         }
         private object get_1_clsPersona_idPersona(object instance)
@@ -427,6 +444,16 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             var that = (global::_17_CRUDPersonasUWP_API_Entidades.clsPersona)instance;
             that.idDepartamento = (global::System.Int32)Value;
         }
+        private object get_8_clsViewModel_progRing(object instance)
+        {
+            var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
+            return that.progRing;
+        }
+        private void set_8_clsViewModel_progRing(object instance, object Value)
+        {
+            var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
+            that.progRing = (global::System.Boolean)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -435,8 +462,8 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "_17_CRUDPersonasUWP_API_UI.clsViewModel.listadoP":
-                userType = (global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.clsViewModel");
+            case "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel.listadoP":
+                userType = (global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel");
                 xamlMember = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlMember(this, "listadoP", "System.Collections.Generic.List`1<_17_CRUDPersonasUWP_API_Entidades.clsPersona>");
                 xamlMember.Getter = get_0_clsViewModel_listadoP;
                 xamlMember.Setter = set_0_clsViewModel_listadoP;
@@ -482,6 +509,12 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
                 xamlMember = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlMember(this, "idDepartamento", "Int32");
                 xamlMember.Getter = get_7_clsPersona_idDepartamento;
                 xamlMember.Setter = set_7_clsPersona_idDepartamento;
+                break;
+            case "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel.progRing":
+                userType = (global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel");
+                xamlMember = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlMember(this, "progRing", "Boolean");
+                xamlMember.Getter = get_8_clsViewModel_progRing;
+                xamlMember.Setter = set_8_clsViewModel_progRing;
                 break;
             }
             return xamlMember;
