@@ -12,36 +12,28 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
     {
 
         #region Propiedades privadas
-        private List<clsPersona> _listadoP;
-        private bool _progRing;
+        private NotifyTaskCompletion<List<clsPersona>> _listadoP;
         #endregion
 
         #region Propiedades publicas
-        public List<clsPersona> listadoP
+        public NotifyTaskCompletion<List<clsPersona>> listadoP
         {
 
             get { return _listadoP; }
 
             set { _listadoP = value; }
         }
-
-        public bool progRing
-        {
-
-            get { return _progRing; }
-
-            set { _progRing = value; }
-        }
         #endregion
 
         #region Constructor
         public clsViewModel() {
 
-            InitializeAsync();
+            clsListadosPersonasBL gest = new clsListadosPersonasBL();
+            _listadoP = new NotifyTaskCompletion<List<clsPersona>>(gest.listadoCompletoPersonasBL());
         }
         #endregion
 
-        private async void InitializeAsync()
+        /*private async void InitializeAsync()
         {
             _progRing = true;
             NotifyPropertyChanged("progRing");
@@ -51,7 +43,7 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
             NotifyPropertyChanged("listadoP");
             _progRing = false;
             NotifyPropertyChanged("progRing");
-        }
+        }*/
 
     }
 }

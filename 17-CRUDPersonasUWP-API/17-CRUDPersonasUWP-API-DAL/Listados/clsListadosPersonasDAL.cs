@@ -29,7 +29,8 @@ namespace _17_CRUDPersonasUWP_API_DAL.Listados
             HttpClient client = new HttpClient();
             //client.BaseAddress = new Uri(ruta);
 
-            HttpResponseMessage response = await client.GetAsync($"{ruta}/Personas");
+            //try catch, throw ex 
+            HttpResponseMessage response = await client.GetAsync($"{ruta}/Personas");//delete  ../{id}
 
             if (response.IsSuccessStatusCode)
             {

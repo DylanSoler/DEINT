@@ -108,6 +108,7 @@
   <ItemGroup>
     <Compile Include="Conexion\clsUriBase.cs" />
     <Compile Include="Listados\clsListadosPersonasDAL.cs" />
+    <Compile Include="Manejadora\clsManejadoraPersonasDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\_17_CRUDPersonasUWP_API_DAL.rd.xml" />
   </ItemGroup>
@@ -125,9 +126,7 @@
       <Name>17-CRUDPersonasUWP-API-Entidades</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Manejadora\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

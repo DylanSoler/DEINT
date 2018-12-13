@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-10T13:23:02.121</Modified>
+      <Modified>2018-12-13T13:30:34.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\17-CRUDPersonasUWP-API-UI.exe">
       <PackagePath>entrypoint\17-CRUDPersonasUWP-API-UI.exe</PackagePath>
-      <Modified>2018-12-10T13:23:00.790</Modified>
+      <Modified>2018-12-13T13:30:33.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -700,15 +700,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-BL\bin\x86\Debug\17-CRUDPersonasUWP-API-BL.dll">
       <PackagePath>17-CRUDPersonasUWP-API-BL.dll</PackagePath>
-      <Modified>2018-12-10T12:52:41.654</Modified>
+      <Modified>2018-12-13T13:13:10.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-Entidades\bin\x86\Debug\17-CRUDPersonasUWP-API-Entidades.dll">
       <PackagePath>17-CRUDPersonasUWP-API-Entidades.dll</PackagePath>
-      <Modified>2018-12-10T12:52:40.060</Modified>
+      <Modified>2018-12-12T09:10:20.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-BL\bin\x86\Debug\17-CRUDPersonasUWP-API-DAL.dll">
       <PackagePath>17-CRUDPersonasUWP-API-DAL.dll</PackagePath>
-      <Modified>2018-12-10T12:52:40.848</Modified>
+      <Modified>2018-12-13T13:13:09.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -750,15 +750,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\17-CRUDPersonasUWP-API-UI.xr.xml">
       <PackagePath>17-CRUDPersonasUWP-API-UI.xr.xml</PackagePath>
-      <Modified>2018-12-10T13:23:00.554</Modified>
+      <Modified>2018-12-13T13:30:33.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-10T13:23:00.574</Modified>
+      <Modified>2018-12-13T13:30:33.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2018-12-10T13:23:00.575</Modified>
+      <Modified>2018-12-13T13:30:33.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -766,11 +766,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-12-10T13:06:53.804</Modified>
+      <Modified>2018-12-13T13:07:20.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dasoler\source\repos\DI\17-CRUDPersonasUWP-API\17-CRUDPersonasUWP-API-UI\bin\x86\Debug\Core\17-CRUDPersonasUWP-API-UI.exe">
       <PackagePath>17-CRUDPersonasUWP-API-UI.exe</PackagePath>
-      <Modified>2018-12-10T13:23:02.115</Modified>
+      <Modified>2018-12-13T13:30:34.774</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

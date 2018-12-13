@@ -16,7 +16,9 @@
 
     <Page.Resources>
         <Converter:clsConverterFechaCorta x:Key="fechaCorta"></Converter:clsConverterFechaCorta>
+        <Converter:clsConverterVisibility x:Key="visibilidad"></Converter:clsConverterVisibility>
     </Page.Resources>
+    
 
     <RelativePanel Margin="20" BorderBrush="Black" BorderThickness="1" Background="FloralWhite">
         
@@ -56,9 +58,19 @@
 
 
         <!--listado de las personas de la BBDD-->
-        <ListView x:ConnectionId='3' Name="lv" ItemsSource="{Binding listadoP}"  
+        <ListView x:ConnectionId='3' Name="lv" ItemsSource="{Binding listadoP.Result}"  
                   BorderBrush="Black" BorderThickness="0,0,1,0" RelativePanel.Below="stkBotones"
                   RelativePanel.AlignBottomWithPanel="True" Background="AntiqueWhite">
+
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal"><!--Bindear Margin="20,20,20,10"-->
+                        <ProgressRing IsActive="True" Height="100" Width="100" 
+                          Visibility="{Binding listadoP.IsNotCompleted, Converter={StaticResource visibilidad}}"
+                          ></ProgressRing>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
 
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -68,13 +80,8 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
+            
         </ListView>
-
-        <ProgressRing IsActive="{Binding progRing}" Height="100" Width="100" 
-                      RelativePanel.AlignHorizontalCenterWithPanel="True"
-                      RelativePanel.AlignVerticalCenterWithPanel="True"
-                      ></ProgressRing>
 
         <!--Grid con los detalles de las persona seleccionada-->
         <!--<Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=TwoWay}">
