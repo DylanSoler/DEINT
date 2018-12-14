@@ -89,6 +89,11 @@ namespace _17_CRUDPersonasUWP_API_DAL.Manejadora
 
         }
 
+        /// <summary>
+        /// Metodo que elimina una persona segun el id
+        /// </summary>
+        /// <param name="id">id de la persona a eliminar</param>
+        /// <returns>numero de filas afectadas</returns>
         public async Task<int> eliminarPersonaDAL(int id)
         {
             HttpClient client = new HttpClient();
@@ -120,7 +125,7 @@ namespace _17_CRUDPersonasUWP_API_DAL.Manejadora
         /// Metodo que devuelve una persona dado un id
         /// </summary>
         /// <returns>List de clsPersona</returns>
-        public async Task<clsPersona> listadoCompletoPersonasDAL(int id)
+        public async Task<clsPersona> PersonaPorIDDAL(int id)
         {
             clsUriBase uribase = new clsUriBase();
             String ruta = uribase.getUriBaseApi();

@@ -120,6 +120,8 @@ namespace _14_CRUDPersonasUWP_UI.ViewModels
         }
         #endregion
 
+        #region Commands
+
         /// <summary>
         /// Elimina la persona seleccionada de la BBDD
         /// </summary>
@@ -257,7 +259,9 @@ namespace _14_CRUDPersonasUWP_UI.ViewModels
             _esInsertar = true;
         }
 
+        #endregion
 
+        #region Otros metodos
         private void filtrarListadoPorBusqueda(String texto) {
 
             _listadoPersonas = new List<clsPersona>();
@@ -279,7 +283,7 @@ namespace _14_CRUDPersonasUWP_UI.ViewModels
                 NotifyPropertyChanged("formularioVisible");
             }
         }
-
+        #endregion
 
         #region Constructor por defecto
         public MainPageViewModel() {

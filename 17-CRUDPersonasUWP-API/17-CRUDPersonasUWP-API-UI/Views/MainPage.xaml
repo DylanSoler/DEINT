@@ -27,7 +27,7 @@
                     RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
                     BorderBrush="Black" BorderThickness="0,0,0,1" Background="AliceBlue">
 
-            <!--<Button Name="btnActualizar" Width="40" Height="40"  Command="{Binding actualizarListadoCommand}" Background="AliceBlue">
+            <Button Name="btnActualizar" Width="40" Height="40"  Command="{Binding actualizarListadoCommand}" Background="AliceBlue">
                 <Button.Content>
                     <Image Source="../Assets/reload.png"></Image>
                 </Button.Content>
@@ -51,14 +51,15 @@
                 </Button.Content>
             </Button>
 
-            <TextBox MinWidth="200" Margin="50,5,0,5" Text="{Binding textoBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30"></TextBox>
+            <!--<TextBox MinWidth="200" Margin="50,5,0,5" Text="{Binding textoBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30"></TextBox>
             <AppBarButton Icon="Find" Width="20"></AppBarButton>-->
 
         </StackPanel>
 
 
         <!--listado de las personas de la BBDD-->
-        <ListView Name="lv" ItemsSource="{Binding listadoP.Result}"  
+        <ListView Name="lv" ItemsSource="{Binding listadoP.Result}"
+                  SelectedItem="{Binding personaSeleccionada, Mode=TwoWay}"
                   BorderBrush="Black" BorderThickness="0,0,1,0" RelativePanel.Below="stkBotones"
                   RelativePanel.AlignBottomWithPanel="True" Background="AntiqueWhite">
 
@@ -84,7 +85,7 @@
         </ListView>
 
         <!--Grid con los detalles de las persona seleccionada-->
-        <!--<Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=TwoWay}">
+        <Grid Name="grid" RelativePanel.RightOf="lv" Margin="80,60,0,0" RelativePanel.Below="stkBotones" Visibility="{Binding Path=formularioVisible, Mode=TwoWay}">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -111,13 +112,12 @@
             <TextBox Name="txbTelefono" Grid.Row="3" Grid.Column="1" Text="{Binding Path=personaSeleccionada.telefono, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
             <TextBlock Text="Direccion:" Grid.Row="4"></TextBlock>
             <TextBox Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding Path=personaSeleccionada.direccion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
-
-            --><!--<TextBlock Visibility="Collapsed" Text="idDepartamento:" Grid.Row="5"></TextBlock>--><!--
-            <TextBox Visibility="Collapsed" Name="txbIdDepart" Grid.Row="5" Grid.Column="1" Text="{Binding Path=personaSeleccionada.idDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
+            <TextBlock Text="idDepartamento:" Grid.Row="5"></TextBlock>
+            <TextBox  Name="txbIdDepart" Grid.Row="5" Grid.Column="1" Text="{Binding Path=personaSeleccionada.idDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="30,0,0,10" Background="White"></TextBox>
 
         </Grid>
 
-        --><!--listado departamentos--><!--
+        <!--listado departamentos--><!--
         <ComboBox Name="cbox" ItemsSource="{Binding listadoDepartamentos}"
                   Visibility="{Binding Path=formularioVisible, Mode=TwoWay}" SelectedValuePath="id"
                   SelectedValue="{Binding personaSeleccionada.idDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
