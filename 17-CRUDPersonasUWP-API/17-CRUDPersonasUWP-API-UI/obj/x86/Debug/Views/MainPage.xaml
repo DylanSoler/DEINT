@@ -58,16 +58,17 @@
 
 
         <!--listado de las personas de la BBDD-->
-        <ListView x:ConnectionId='3' Name="lv" ItemsSource="{Binding listadoP.Result}"
+        <ListView x:ConnectionId='3' Name="lv" ItemsSource="{Binding listadoAsincrono.Result}"
                   SelectedItem="{Binding personaSeleccionada, Mode=TwoWay}"
                   BorderBrush="Black" BorderThickness="0,0,1,0" RelativePanel.Below="stkBotones"
-                  RelativePanel.AlignBottomWithPanel="True" Background="AntiqueWhite">
+                  RelativePanel.AlignBottomWithPanel="True" Background="AntiqueWhite"
+                  MinWidth="250">
 
             <ListView.HeaderTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal"><!--Bindear Margin="20,20,20,10"-->
                         <ProgressRing IsActive="True" Height="100" Width="100" 
-                          Visibility="{Binding listadoP.IsNotCompleted, Converter={StaticResource visibilidad}}"
+                          Visibility="{Binding listadoAsincrono.IsNotCompleted, Converter={StaticResource visibilidad}}"
                           ></ProgressRing>
                     </StackPanel>
                 </DataTemplate>

@@ -269,7 +269,7 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
             case 0:   //  _17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel
                 userType = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsVMBase"));
                 userType.Activator = Activate_0_clsViewModel;
-                userType.AddMemberName("listadoP");
+                userType.AddMemberName("listadoAsincrono");
                 userType.AddMemberName("personaSeleccionada");
                 userType.AddMemberName("eliminarCommand");
                 userType.AddMemberName("actualizarListadoCommand");
@@ -347,15 +347,10 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
         }
 
 
-        private object get_0_clsViewModel_listadoP(object instance)
+        private object get_0_clsViewModel_listadoAsincrono(object instance)
         {
             var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
-            return that.listadoP;
-        }
-        private void set_0_clsViewModel_listadoP(object instance, object Value)
-        {
-            var that = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel)instance;
-            that.listadoP = (global::_17_CRUDPersonasUWP_API_UI.ViewModel.NotifyTaskCompletion<global::System.Collections.Generic.List<global::_17_CRUDPersonasUWP_API_Entidades.clsPersona>>)Value;
+            return that.listadoAsincrono;
         }
         private object get_1_clsViewModel_personaSeleccionada(object instance)
         {
@@ -400,11 +395,11 @@ namespace _17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel.listadoP":
+            case "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel.listadoAsincrono":
                 userType = (global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel");
-                xamlMember = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlMember(this, "listadoP", "_17_CRUDPersonasUWP_API_UI.ViewModel.NotifyTaskCompletion`1<System.Collections.Generic.List`1<_17_CRUDPersonasUWP_API_Entidades.clsPersona>>");
-                xamlMember.Getter = get_0_clsViewModel_listadoP;
-                xamlMember.Setter = set_0_clsViewModel_listadoP;
+                xamlMember = new global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlMember(this, "listadoAsincrono", "_17_CRUDPersonasUWP_API_UI.ViewModel.NotifyTaskCompletion`1<System.Collections.Generic.List`1<_17_CRUDPersonasUWP_API_Entidades.clsPersona>>");
+                xamlMember.Getter = get_0_clsViewModel_listadoAsincrono;
+                xamlMember.SetIsReadOnly();
                 break;
             case "_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel.personaSeleccionada":
                 userType = (global::_17_CRUDPersonasUWP_API_UI._7_CRUDPersonasUWP_API_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_17_CRUDPersonasUWP_API_UI.ViewModel.clsViewModel");

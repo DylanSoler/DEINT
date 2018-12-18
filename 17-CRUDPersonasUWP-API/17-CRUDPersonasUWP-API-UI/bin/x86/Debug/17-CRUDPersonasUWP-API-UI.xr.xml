@@ -13,7 +13,7 @@
     <RootPropertyPathName Name="apellidos" />
     <RootPropertyPathName Name="nombre" />
     <RootPropertyPathName Name="idPersona" />
-    <RootPropertyPathName Name="listadoP" />
+    <RootPropertyPathName Name="listadoAsincrono" />
     <RootPropertyPathName Name="Result" />
     <RootPropertyPathName Name="IsNotCompleted" />
     <RootPropertyPathName Name="eliminarCommand" />
@@ -68,6 +68,7 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Background" />
+      <RootProperty Name="MinWidth" />
       <RootProperty Name="HeaderTemplate" />
       <RootProperty Name="ItemTemplate" />
     </RootType>

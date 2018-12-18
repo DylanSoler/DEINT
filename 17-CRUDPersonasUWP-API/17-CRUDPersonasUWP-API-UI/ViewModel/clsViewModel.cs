@@ -15,7 +15,8 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
 
         #region Propiedades privadas
         //private List<clsPersona> _listadoPersonas;
-        private NotifyTaskCompletion<List<clsPersona>> _listadoP;
+        //private List<clsPersona> _listadoCompleto;
+        private NotifyTaskCompletion<List<clsPersona>> _listadoAsincrono;
         private clsPersona _personaSeleccionada;
         //private List<clsDepartamento> _listadoDepartamentos;
         private DelegateCommand _eliminarCommand;
@@ -28,13 +29,19 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
         #endregion
 
         #region Propiedades publicas
-        public NotifyTaskCompletion<List<clsPersona>> listadoP
+        public NotifyTaskCompletion<List<clsPersona>> listadoAsincrono
         {
 
-            get { return _listadoP; }
-
-            set { _listadoP = value; }
+            get { return _listadoAsincrono; }
         }
+
+        /*public List<clsPersona> listadoPersonas
+        {
+
+            get { return _listadoPersonas; }
+
+            set { _listadoPersonas = value; }
+        }*/
 
         public clsPersona personaSeleccionada
         {
@@ -176,7 +183,7 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
         {
             clsListadosPersonasBL gest = new clsListadosPersonasBL();
 
-            _listadoP = new NotifyTaskCompletion<List<clsPersona>>(gest.listadoCompletoPersonasBL());
+            _listadoAsincrono = new NotifyTaskCompletion<List<clsPersona>>(gest.listadoCompletoPersonasBL());
             NotifyPropertyChanged("listadoP");
 
             _formularioVisible = "Collapsed";
@@ -291,7 +298,7 @@ namespace _17_CRUDPersonasUWP_API_UI.ViewModel
         public clsViewModel() {
 
             clsListadosPersonasBL gest = new clsListadosPersonasBL();
-            _listadoP = new NotifyTaskCompletion<List<clsPersona>>(gest.listadoCompletoPersonasBL());
+            _listadoAsincrono = new NotifyTaskCompletion<List<clsPersona>>(gest.listadoCompletoPersonasBL());
 
             _formularioVisible = "Collapsed";
         }
