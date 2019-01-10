@@ -1,0 +1,1 @@
+C:\Users\dasoler\source\repos\DI\Chat\chatdylan_cliente\chatdylan\chatdylan.csproj;arm
