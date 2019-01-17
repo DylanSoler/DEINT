@@ -233,3 +233,17 @@ C:\Users\dasoler\source\repos\DI\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\
 C:\Users\dasoler\source\repos\DI\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\Microsoft.Azure.Mobile.Client.pri.xml
 C:\Users\dasoler\source\repos\DI\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\dasoler\source\repos\DI\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\chatdylan.csprojAssemblyReference.cache
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\App.g.i.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\App.g.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\Common\QuickStartTask.g.i.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\Common\QuickStartTask.g.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\MainPage.g.cs
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\App.xaml
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\Common\QuickStartTask.xaml
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\MainPage.xaml
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\App.xbf
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\Common\QuickStartTask.xbf
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\MainPage.xbf
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\chatdylan.exe
+C:\Users\NitroPC\source\repos\DEINT\Chat\chatdylan_cliente\chatdylan\obj\x64\Debug\chatdylan.pdb

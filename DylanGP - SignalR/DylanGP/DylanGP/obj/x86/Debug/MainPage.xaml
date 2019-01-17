@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="DylanGP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DylanGP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel Background="LightGray">
+        
+        <!--Nombre juego-->
+        <StackPanel x:ConnectionId='2' Name="stktitulo" Background="CornflowerBlue" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWithPanel="True" Height="50">
+
+            <TextBlock x:ConnectionId='6' Name="txbTitulo" Text="DylanGP" FontFamily="Impact" FontStyle="Oblique" FontWeight="Black" FontSize="40" Padding="20,5,5,5"></TextBlock>
+
+        </StackPanel>
+
+        <!--Linea de salida-->
+        <Rectangle Fill="Gray" Margin="81,0,0,0" Width="3" RelativePanel.Below="stktitulo" RelativePanel.AlignBottomWithPanel="True"></Rectangle>
+        
+        
+        <!--Canvas Carretera-->
+        <Canvas x:ConnectionId='3' Name="carretera" RelativePanel.Below="stktitulo" Width="1280" Height="630">
+
+            <!--<Line Fill="Black" Width="100" Height="100" HorizontalAlignment="Right"></Line>-->
+
+            <!--<Rectangle Fill="DarkBlue" Width="50" Height="80" Canvas.Left="0" Canvas.Top="200"></Rectangle>-->
+            <!--<Image Name="img1" Source="Assets/golf-cart.png" Width="80" Height="100" Canvas.Top="200"></Image>-->
+
+            <!--<Rectangle Fill="DarkRed" Width="50" Height="80" Canvas.Left="0" Canvas.Top="380"></Rectangle>-->
+            <!--<Image Name="img2" Source="Assets/golf-cart2.png" Width="80" Height="100" Canvas.Top="380"></Image>-->
+            
+        </Canvas>
+        
+        <!--Boton acelerar-->
+        <Button x:ConnectionId='4' Name="speedUp" Background="CornflowerBlue" Content="SPEED UP" Foreground="White"                      RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignBottomWithPanel="True" FontSize="36" FontFamily="Comic Sans MS" FontWeight="Bold" Margin="0,0,0,200"></Button>
+        
+        
+        <!--Meta-->
+        <StackPanel x:ConnectionId='5' Name="stkMeta" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="stktitulo" Width="70" BorderBrush="Black" BorderThickness="3">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="Assets/metafina2.png"></ImageBrush>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </RelativePanel>
+</Page>
+

@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="DylanGP.nick"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DylanGP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+
+    <RelativePanel>
+
+        <Image Source="Assets/iniciometa.png"></Image>
+
+        <TextBlock x:ConnectionId='2' Foreground="CornflowerBlue" FontSize="60" FontWeight="Bold" Name="txbNick" Text="Introduce tu nick" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True"></TextBlock>
+        <TextBox x:ConnectionId='3' Name="nickJugador" FontSize="40" RelativePanel.Below="txbNick" RelativePanel.AlignLeftWith="txbNick" RelativePanel.AlignRightWith="txbNick" Margin="10"></TextBox>
+
+
+        <Button x:ConnectionId='4' Name="btnJugar"                        Content="Jugar" FontSize="30" FontFamily="Comic Sans MS" FontWeight="Bold" RelativePanel.Below="nickJugador" RelativePanel.AlignLeftWith="nickJugador" Background="CornflowerBlue" Margin="180,30,0,0"></Button>
+
+    </RelativePanel>
+</Page>
+

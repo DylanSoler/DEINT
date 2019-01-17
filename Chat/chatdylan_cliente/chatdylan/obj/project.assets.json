@@ -17161,12 +17161,12 @@
       ]
     },
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "SuvSPFxuJldijkn+ShXv63AyjmvDOMj3mIARq98WbQT5ZfqaG9XfBfDsHu66t/Zo8iNo6lrw0hTPwubbecXSEg==",
+      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "Microsoft.CSharp.4.0.1.nupkg.sha512",
+        "Microsoft.CSharp.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -17182,8 +17182,6 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.0.1.nupkg.sha512",
-        "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
@@ -17397,12 +17395,12 @@
       ]
     },
     "Microsoft.VisualBasic/10.0.1": {
-      "sha512": "etxchRjJpWEU8QcD6mtxqeXGCzlL3LyiHoDTBAxEkih3W9KTRZINkgnDAr1Diy8hD9ifaPQq2u5QPuHDrg/uog==",
+      "sha512": "HpNyOf/4Tp2lh4FyywB55VITk0SqVxEjDzsVDDyF1yafDN6Bq18xcHowzCPINyYHUTgGcEtmpYiRsFdSo0KKdQ==",
       "type": "package",
       "path": "microsoft.visualbasic/10.0.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "Microsoft.VisualBasic.10.0.1.nupkg.sha512",
+        "Microsoft.VisualBasic.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -17411,8 +17409,6 @@
         "lib/portable-net45+win8+wpa81/_._",
         "lib/win8/_._",
         "lib/wpa81/_._",
-        "microsoft.visualbasic.10.0.1.nupkg.sha512",
-        "microsoft.visualbasic.nuspec",
         "ref/net45/_._",
         "ref/netcore50/Microsoft.VisualBasic.dll",
         "ref/netcore50/Microsoft.VisualBasic.xml",
@@ -17496,7 +17492,6 @@
       "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "lib/net20/Newtonsoft.Json.dll",
@@ -18584,7 +18579,6 @@
       "sha512": "YaXA5RVLCYIcV1N31A7MJhWJnNkNfGnyRBNH1yYilUrBDvzMxNsbXX2pD7owWsC/go/4LRwbHbdWWXwHowKNvw==",
       "type": "package",
       "path": "runtime.win7-x64.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -18641,7 +18635,6 @@
       "sha512": "80Jj8QlMLAnTq+BDhoHBnSNXRKqVjjZM9VjHcpw9/F98cBmh80rBdbnM0AAr54htjhzupYvwLqwuKnlzxec04A==",
       "type": "package",
       "path": "runtime.win7-x86.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -18701,7 +18694,6 @@
       "sha512": "0V6sq7Dg0bQPrJtm/Qw5Zu0e7gidnRPLaqUhKIkLYzVn64jkat+JnR6LcezryD3c0Wuva/MdJWYSAaOPq5V/Zw==",
       "type": "package",
       "path": "runtime.win8-arm.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -18948,20 +18940,18 @@
       ]
     },
     "System.Collections.Immutable/1.2.0": {
-      "sha512": "2KnDB5xOmdERBZDniirmMPmY4AIUM7AbAIn+faLNShDc3mk0pe8iiPzBuJc5vMhTmMwEZbV2QbRAcaY+y2zwkw==",
+      "sha512": "Cma8cBW6di16ZLibL8LYQ+cLjGzoKxpOTu/faZfDcx94ZjAGq6Nv5RO7+T1YZXqEXTZP9rt1wLVEONVpURtUqw==",
       "type": "package",
       "path": "system.collections.immutable/1.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "System.Collections.Immutable.1.2.0.nupkg.sha512",
+        "System.Collections.Immutable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
         "lib/netstandard1.0/System.Collections.Immutable.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
-        "system.collections.immutable.1.2.0.nupkg.sha512",
-        "system.collections.immutable.nuspec"
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml"
       ]
     },
     "System.Collections.NonGeneric/4.0.1": {
@@ -21221,20 +21211,19 @@
       ]
     },
     "System.Private.ServiceModel/4.1.3": {
-      "sha512": "nXoKlG2znsZ5lcR/ULZ7hIFrEqRBW8m5PK1qHf5T/eeogmuL50WpuHxhpNM/arTYS5FtlSN8Sl7YXZIGPcf/zQ==",
+      "sha512": "PS9pmdXqvLxxt02jF7Lrbq0kBi+IQGhVOP38V6Wv5IlUW2vFVBbtPb2euhl7bJsh80paIeUEjjA3QtvgMVE7Vw==",
       "type": "package",
       "path": "system.private.servicemodel/4.1.3",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.Private.ServiceModel.4.1.3.nupkg.sha512",
+        "System.Private.ServiceModel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
         "runtimes/unix/lib/netstandard1.3/System.Private.ServiceModel.dll",
         "runtimes/win7/lib/netcore50/System.Private.ServiceModel.dll",
-        "runtimes/win7/lib/netstandard1.3/System.Private.ServiceModel.dll",
-        "system.private.servicemodel.4.1.3.nupkg.sha512",
-        "system.private.servicemodel.nuspec"
+        "runtimes/win7/lib/netstandard1.3/System.Private.ServiceModel.dll"
       ]
     },
     "System.Private.Uri/4.3.0": {
@@ -22807,12 +22796,13 @@
       ]
     },
     "System.ServiceModel.Duplex/4.0.4": {
-      "sha512": "yBFdrm04/c3ApEM8TmHnN+d5nEXBX7ZDQ5kgL06TuXHWR6M8OogaUVFqfb9hkBH/PrA1aFLgaTTj4PqhvRSTBQ==",
+      "sha512": "UV1BhrNh6qyW0Xw1xM0L5bnPYFFkFt18Nqq2BqrYtso5tj359QLtj/xoxZ52HWuqOL8p4mNuVNNseNZNmv0lkA==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.4",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.ServiceModel.Duplex.4.0.4.nupkg.sha512",
+        "System.ServiceModel.Duplex.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -22824,18 +22814,17 @@
         "ref/netcore50/System.ServiceModel.Duplex.dll",
         "ref/netstandard1.1/System.ServiceModel.Duplex.dll",
         "ref/portable-net45+win8/_._",
-        "ref/win8/_._",
-        "system.servicemodel.duplex.4.0.4.nupkg.sha512",
-        "system.servicemodel.duplex.nuspec"
+        "ref/win8/_._"
       ]
     },
     "System.ServiceModel.Http/4.1.3": {
-      "sha512": "8hpHlzYjJI6zxDq0jOLd7oioVokGJ9mVb+O9ME7Me5c+JLl0lny3snkKtCIXi0NJ98SjLUsF0uFg/lyBVos9QQ==",
+      "sha512": "7mW2JvvQ8JRH0fp6/CMgqIckxmSTSo1hkes5VAosXlGuvW7C8pzd5936EQGhSRwOtWX8zgb6CsUhqBts3WtkRA==",
       "type": "package",
       "path": "system.servicemodel.http/4.1.3",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.ServiceModel.Http.4.1.3.nupkg.sha512",
+        "System.ServiceModel.Http.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -22865,18 +22854,17 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.servicemodel.http.4.1.3.nupkg.sha512",
-        "system.servicemodel.http.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.ServiceModel.NetTcp/4.1.3": {
-      "sha512": "qiAn9GyWS5zFNWBjgnFMThN1iO2ryyJCTAZgYehTQyLvBr3E3XHlW9rM1bTTbbxU0neTKuJPLjEn7QVQ96H9gA==",
+      "sha512": "QYaj8wl05oHOW4thLtrHDNOLMGXKz1TtFBezZNNTY5k5KPdMtVTJsc5g9k6Q0/2w4rmq/MYtY5Rdn2HIfXjiCg==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.1.3",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.ServiceModel.NetTcp.4.1.3.nupkg.sha512",
+        "System.ServiceModel.NetTcp.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -22891,18 +22879,17 @@
         "ref/netstandard1.1/System.ServiceModel.NetTcp.dll",
         "ref/netstandard1.3/System.ServiceModel.NetTcp.dll",
         "ref/portable-net45+win8/_._",
-        "ref/win8/_._",
-        "system.servicemodel.nettcp.4.1.3.nupkg.sha512",
-        "system.servicemodel.nettcp.nuspec"
+        "ref/win8/_._"
       ]
     },
     "System.ServiceModel.Primitives/4.1.3": {
-      "sha512": "ooQ7+rc+4NOU3fzVDBpH9DGubH2U09rSpKOK5LoI/RQg00zWCtGuPN1Ve09LxkjTkD+nEssoHxVaWDW8lWmevQ==",
+      "sha512": "PNSwn/diEbGTdOZauCuSEBQbAYCGaImfV6Exh9QUnypkk6aAyfF9WrpSldULNJ8ysjnq7bqvQ6yUUFzBAA2Khw==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.1.3",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.ServiceModel.Primitives.4.1.3.nupkg.sha512",
+        "System.ServiceModel.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -22932,18 +22919,17 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.servicemodel.primitives.4.1.3.nupkg.sha512",
-        "system.servicemodel.primitives.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.ServiceModel.Security/4.0.4": {
-      "sha512": "TYSUCu8ejtp+8CLznJR57GS/LTR+wIGV6RlehUYwZImOhqnMvCRH35G0SXqbGrUd7wThlD+DowRHU3LivG89Mg==",
+      "sha512": "UrpkR8UEKHbdPIaJI9yfgQ3EPYke8fW7VE7mzuY8Pg+fCfE6XLp7rx+ZBUf4VFxmG4w6Ql87CAAGIAZSEnRF+A==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.4",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
+        "System.ServiceModel.Security.4.0.4.nupkg.sha512",
+        "System.ServiceModel.Security.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -22958,9 +22944,7 @@
         "ref/netstandard1.1/System.ServiceModel.Security.dll",
         "ref/portable-net45+win8+wp8/_._",
         "ref/win8/_._",
-        "ref/wp8/_._",
-        "system.servicemodel.security.4.0.4.nupkg.sha512",
-        "system.servicemodel.security.nuspec"
+        "ref/wp8/_._"
       ]
     },
     "System.Text.Encoding/4.3.0": {
@@ -23822,24 +23806,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dasoler\\.nuget\\packages\\": {},
+    "C:\\Users\\NitroPC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dasoler\\source\\repos\\DI\\Chat\\chatdylan_cliente\\chatdylan\\chatdylan.csproj",
+      "projectUniqueName": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\Chat\\chatdylan_cliente\\chatdylan\\chatdylan.csproj",
       "projectName": "chatdylan",
-      "projectPath": "C:\\Users\\dasoler\\source\\repos\\DI\\Chat\\chatdylan_cliente\\chatdylan\\chatdylan.csproj",
-      "packagesPath": "C:\\Users\\dasoler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dasoler\\source\\repos\\DI\\Chat\\chatdylan_cliente\\chatdylan\\obj\\",
+      "projectPath": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\Chat\\chatdylan_cliente\\chatdylan\\chatdylan.csproj",
+      "packagesPath": "C:\\Users\\NitroPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NitroPC\\source\\repos\\DEINT\\Chat\\chatdylan_cliente\\chatdylan\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dasoler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NitroPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

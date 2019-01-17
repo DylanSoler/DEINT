@@ -8,7 +8,42 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <RelativePanel Background="LightGray">
+        
+        <!--Nombre juego-->
+        <StackPanel Name="stktitulo" Background="CornflowerBlue" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWithPanel="True" Height="50">
 
-    </Grid>
+            <TextBlock Name="txbTitulo" Text="DylanGP" FontFamily="Impact" FontStyle="Oblique" FontWeight="Black" FontSize="40" Padding="20,5,5,5"></TextBlock>
+
+        </StackPanel>
+
+        <!--Linea de salida-->
+        <Rectangle Fill="Gray" Margin="81,0,0,0" Width="3" RelativePanel.Below="stktitulo" RelativePanel.AlignBottomWithPanel="True"></Rectangle>
+        
+        
+        <!--Canvas Carretera-->
+        <Canvas Name="carretera" RelativePanel.Below="stktitulo" Width="1280" Height="630">
+
+            <!--<Line Fill="Black" Width="100" Height="100" HorizontalAlignment="Right"></Line>-->
+
+            <!--<Rectangle Fill="DarkBlue" Width="50" Height="80" Canvas.Left="0" Canvas.Top="200"></Rectangle>-->
+            <!--<Image Name="img1" Source="Assets/golf-cart.png" Width="80" Height="100" Canvas.Top="200"></Image>-->
+
+            <!--<Rectangle Fill="DarkRed" Width="50" Height="80" Canvas.Left="0" Canvas.Top="380"></Rectangle>-->
+            <!--<Image Name="img2" Source="Assets/golf-cart2.png" Width="80" Height="100" Canvas.Top="380"></Image>-->
+            
+        </Canvas>
+        
+        <!--Boton acelerar-->
+        <Button Name="speedUp" Background="CornflowerBlue" Content="SPEED UP" Foreground="White" Click="Button_Click" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignBottomWithPanel="True" FontSize="36" FontFamily="Comic Sans MS" FontWeight="Bold" Margin="0,0,0,200"></Button>
+        
+        
+        <!--Meta-->
+        <StackPanel Name="stkMeta" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="stktitulo" Width="70" BorderBrush="Black" BorderThickness="3">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="Assets/metafina2.png"></ImageBrush>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </RelativePanel>
 </Page>
