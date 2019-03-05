@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CRUDPersonasXamarinUI"
+             xmlns:vm="clr-namespace:CRUDPersonasXamarinUI.ViewModels"
+             x:Class="CRUDPersonasXamarinUI.MainPage">
+
+    <!--<ContentPage.BindingContext>
+        <vm:clsViewModel></vm:clsViewModel>
+    </ContentPage.BindingContext>-->
+
+    <StackLayout>
+        <Label Text="CRUD de... adivina...Personas" Margin="5" FontSize="25" FontAttributes="Bold"></Label>
+
+        <!--<Frame OutlineColor="Black" >-->
+        <ListView x:Name="lv" ItemsSource="{Binding listadoAsincrono.Result}"
+                  SelectedItem="{Binding personaSeleccionada, Mode=TwoWay}" BackgroundColor="AntiqueWhite">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!--<Frame OutlineColor="Black">-->
+                        <StackLayout Orientation="Horizontal" HeightRequest="16">
+                            <Label Text="{Binding Path=nombre}" Margin="15,10,0,0"></Label>
+                            <Label Text=", " Margin="0,10,0,0"></Label>
+                            <Label Text="{Binding Path=apellidos}" Margin="0,10,0,0"></Label>
+                        </StackLayout>
+                        <!--</Frame>-->
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!--</Frame>-->
+    </StackLayout>
+
+</ContentPage>

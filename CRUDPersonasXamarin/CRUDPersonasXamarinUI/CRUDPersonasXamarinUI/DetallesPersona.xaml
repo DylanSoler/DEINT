@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDPersonasXamarinUI.DetallesPersona">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Detalles" Margin="5" FontSize="25" FontAttributes="Bold"/>
+
+            <Label Text="Nombre: "></Label>
+            <Entry Text="{Binding Path=persona.nombre}"></Entry>
+
+            <Label Text="Apellidos: "></Label>
+            <Entry Text="{Binding Path=persona.apellidos}"></Entry>
+
+            <!--<Label Text="Apellidos: "></Label>
+            <Entry Text="{Binding Path=persona.apellidos}"></Entry>-->
+
+            <Label Text="Direccion: "></Label>
+            <Entry Text="{Binding Path=persona.direccion}"></Entry>
+
+            <Label Text="Telefono: "></Label>
+            <Entry Text="{Binding Path=persona.telefono}"></Entry>
+            
+            <Label Text="ID Departamento: "></Label>
+            <Entry Text="{Binding Path=persona.idDepartamento}"></Entry>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

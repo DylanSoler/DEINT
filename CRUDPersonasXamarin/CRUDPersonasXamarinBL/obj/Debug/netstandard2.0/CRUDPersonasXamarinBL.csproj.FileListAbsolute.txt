@@ -1,0 +1,14 @@
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinBL.deps.json
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinBL.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinBL.pdb
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinDAL.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinDAL.pdb
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\bin\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.pdb
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.csprojAssemblyReference.cache
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.csproj.CoreCompileInputs.cache
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.AssemblyInfoInputs.cache
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.AssemblyInfo.cs
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.csproj.CopyComplete
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinBL\obj\Debug\netstandard2.0\CRUDPersonasXamarinBL.pdb

@@ -1,0 +1,8 @@
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\bin\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.deps.json
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\bin\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\bin\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.pdb
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\obj\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.csproj.CoreCompileInputs.cache
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\obj\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.AssemblyInfoInputs.cache
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\obj\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.AssemblyInfo.cs
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\obj\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.dll
+D:\repos\CRUDPersonasXamarin\CRUDPersonasXamarinEntidades\obj\Debug\netstandard2.0\CRUDPersonasXamarinEntidades.pdb
